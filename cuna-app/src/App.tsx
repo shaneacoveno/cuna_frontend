@@ -4,9 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Disqualified from './components/Disqualified/Disqualified';
 
+import Disqualified from './components/Disqualified/Disqualified';
 import Landing from './components/landingPage/landingPage';
+import NewAccount from './components/NewAccount/NewAccount';
+
 
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
           <Disqualified />
         </Route>
         <Route path='/newaccount'>
-          <NewAccount/>
+          <NewAccount />
         </Route>
 
       </Switch>

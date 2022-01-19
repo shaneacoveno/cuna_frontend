@@ -9,7 +9,7 @@ import { NewAccountStyled } from './NewAccount.styles';
 
 const NewAccount: FC = () => {
 
-  const [ state, setState ] = useState({});
+  const [ state, setState ] = useState<any>([]);
   const [ validEmail, setValidEmail ] = useState(false);
   const [ validPassword, setValidPassword ] = useState(false);
 
