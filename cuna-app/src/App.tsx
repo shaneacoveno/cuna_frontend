@@ -19,6 +19,9 @@ function App() {
         <Route path='/disqualified'>
           <Disqualified />
         </Route>
+        <Route path='/newaccount'>
+          <NewAccount/>
+        </Route>
 
       </Switch>
     </Router>
