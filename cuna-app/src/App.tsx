@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Disqualified from './components/Disqualified/Disqualified';
 
 import Landing from './components/landingPage/landingPage';
 
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Landing />
+        </Route>
+        <Route path='/disqualified'>
+          <Disqualified />
         </Route>
 
       </Switch>
